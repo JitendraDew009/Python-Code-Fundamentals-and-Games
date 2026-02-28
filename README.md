@@ -8,7 +8,7 @@
 
 ---
 
-## 🚀 About This Repository
+## About This Repository
 
 This repository contains my **Python fundamentals practice** along with multiple **text-based games** built to strengthen programming concepts through practical implementation.
 
@@ -18,7 +18,7 @@ This is also my **first GitHub project**, created to practice GitHub workflows a
 
 ---
 
-## 🧠 Skills & Concepts Practiced
+##  Skills & Concepts Practiced
 
 ✅ Variables & Data Types  
 ✅ Conditional Statements  
@@ -31,18 +31,18 @@ This is also my **first GitHub project**, created to practice GitHub workflows a
 
 ---
 
-## 🎮 Projects Included
+##  Projects Included
 
-### 🎯 Number Guessing Game
+###  Number Guessing Game
 A game where users guess the correct number with logical hints.
 
-### 🧩 Quiz Game
+###  Quiz Game
 Interactive quiz program using conditions and scoring logic.
 
-### 🗺️ Adventure Game
+###  Adventure Game
 Simple decision-based story game demonstrating control flow.
 
-### ⚙️ Practice Programs
+###  Practice Programs
 Multiple small exercises focused on strengthening fundamentals.
 
 
@@ -112,9 +112,9 @@ Feel free to fork and contribute!
 
 **Jitendra Dewangan**  
 Aspiring AI Engineer | Python Developer  
-Building in Public 🚀  
+Building in Public  
 
-🔗 GitHub:  
+ GitHub:  
 https://github.com/JitendraDew009
 
 ---
