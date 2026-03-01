@@ -1,0 +1,4 @@
+This is my fist line in empty file.
+This is my second line in empty
+This is my second line 
+ This is my third line
