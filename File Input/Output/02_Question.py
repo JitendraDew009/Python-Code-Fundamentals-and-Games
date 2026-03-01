@@ -1,3 +1,5 @@
+# Search if a word exits in a file or not 
+
 word = "learning"
 with open("practice_file.txt", "r") as f:
     data = f.read()
