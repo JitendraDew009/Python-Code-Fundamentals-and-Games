@@ -6,6 +6,6 @@ def raise_to_power(base_num, pow_num):
     return result
     
 print(raise_to_power(3,3)) # 27
-print(raise_to_power(3,4)) # 27
-print(raise_to_power(3,5)) # 27
-print(raise_to_power(3,6)) # 27
+print(raise_to_power(3,4)) # 81
+print(raise_to_power(3,5)) # 243
+print(raise_to_power(3,6)) # 729

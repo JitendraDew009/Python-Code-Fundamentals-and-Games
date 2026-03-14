@@ -9,3 +9,4 @@ def get_file_ext(filename):
 
 def roll_dice(num):
     return random.randint(1, num)
+
