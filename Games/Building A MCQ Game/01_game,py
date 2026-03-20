@@ -1,0 +1,44 @@
+import random
+
+def guessing_game():
+    print("Welcome to the Multi-Level Guessing Game!")
+
+    print("\nSelect Difficulty Level:")
+    print("1. Easy (1-10)")
+    print("2. Medium (1-50)")
+    print("3. Hard (1-100)")
+
+    choice = input("Enter choice (1/2/3): ")
+
+    if choice == "1":
+        number = random.randint(1, 10)
+        attempts = 5
+        print("\nYou selected Easy Mode!")
+    elif choice == "2":
+        number = random.randint(1, 50)
+        attempts = 7
+        print("\nYou selected Medium Mode!")
+    elif choice == "3":
+        number = random.randint(1, 100)
+        attempts = 10
+        print("\nYou selected Hard Mode!")
+    else:
+        print("Invalid choice!")
+        return
+
+    while attempts > 0:
+        guess = int(input(f"\nEnter your guess ({attempts} attempts left): "))
+
+        if guess == number:
+            print(" Congratulations! You guessed it right!")
+            return
+        elif guess < number:
+            print("Too low!")
+        else:
+            print("Too high!")
+
+        attempts -= 1
+
+    print(f"\n Game Over! The number was {number}.")
+
+guessing_game()
